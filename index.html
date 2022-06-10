@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fetch Lab</title>
+    <link rel="stylesheet" href="styles.css">
     <script src="app.js" defer></script>
 </head>
 <body>
@@ -12,16 +13,22 @@
         <h1 id="loading">Loading...</h1>
     </header>
 
-
-
-    <h1></h1>
-    <section id="body__firstSection"></section>
-
     <form action="" id="form">
         <label for="form"></label>
         <input type="text" id="country" placeholder="Filter By Country"/> 
         <input type="submit" value="Submit"/>
     </form>
+
+    <section id="body__firstSection">
+        <div id="with-flag">
+            <p id="description"></p>
+            <p id="flag"></p>
+            <!-- <img id="flag" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" width="0" height="0" alt="" /> -->
+        </div>
+        <p id="content"></p>
+    </section>
+
+   
 
 </body>
 </html>
